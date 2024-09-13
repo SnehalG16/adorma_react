@@ -1,0 +1,81 @@
+.sign1
+{
+background-color:#003773 ;
+
+ height: 100vh;
+ display: grid;
+ justify-items: center;
+ grid-template-rows: 1fr 580px 1fr;
+ display: flex;
+ box-shadow: 5px 5px 5px rgb(242, 229, 229);
+ background: linear-gradient(180deg, #003263 0%, #004387 50%);
+ width: 100%;
+    height: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+   
+
+    
+    
+}
+.social-pwd-note.error .message.error {
+    background: #2d2e32;
+    font-size: .8125em!important;
+    line-height: 1.4;
+    font-weight: 400;
+    padding: 8px 12px 12px
+}
+.sign2
+{
+    height: 100vh;
+    width: 100%;
+    margin: 50px 210px;
+    display: flex;
+    
+}
+.cardblue
+{
+    background-color: #044182;
+    height: 500px;
+    width: 50%;
+}
+.cardwhite
+{
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 50%;
+    
+}
+
+.btn1
+{
+    background-color:orangered ;
+    width: 300px;
+    color: aliceblue;
+    font-size:20px;
+    border-radius: 10px;
+}
+.sign2 h2
+{
+    color:#044182;
+    
+}
+@media (max-width: 768px) {
+    .sign2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .cardblue, .cardwhite {
+      width: 80%;
+      margin: 10px 0;
+    }
+  
+    .btn1 {
+      width: 80%;
+    }
+  
+    .sign2 h2 {
+      display: none;
+    }
+}

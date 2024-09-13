@@ -1,0 +1,106 @@
+
+.button 
+{
+  width: 400px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 50px;
+  margin-top: 20%;
+  text-decoration: none;
+}
+.button:hover
+{
+  background-color: white;
+  color: black;
+  transition: all 0.5s ease-in-out;
+}
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.main-image {
+  width: 100%;
+}
+
+.desc-heading p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.desc-title h1 {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.desc-price h5 {
+  color: #28a745;
+  font-size: 1.25rem;
+}
+
+.desc-button .button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.desc-button .button:hover {
+  background-color: #023a75;
+}
+.action-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.action-item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 5px;
+  color: red;
+}
+
+.protection-container {
+  text-align: center;
+}
+
+.protection-container h6 {
+  margin: 10px 0;
+}
+
+.protection-container a {
+  color: blue;
+  text-decoration: none;
+}
+
+.protection-plans {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+}
+
+.plan {
+  border: 1px solid gray;
+  padding: 10px;
+  text-align: center;
+}
+
+.plan p {
+  margin: 0;
+}
+
+.plan h6 {
+  margin: 5px 0 0 0;
+}

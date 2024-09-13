@@ -1,0 +1,126 @@
+.foot {
+    height:700px;
+    width: 100%;
+    background-color: #003773;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.nav-link {
+    color: rgb(131, 130, 130); /* Initial color */
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(79, 108, 236); /* Hover color */
+}
+
+.one {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding: 10px;
+    flex: 1;
+    min-width: 200px; /* Minimum width for each section */
+}
+
+.iconf {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    width: calc(50% - 5px); /* Adjust width for responsiveness */
+    margin-right: 5px;
+}
+
+button {
+    height: 34px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .foot {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .one {
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin: 0;
+    }
+
+    .iconf {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .one {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-size: 1.5em; /* Adjusted font size */
+    }
+
+    p {
+        font-size: 1em; /* Adjusted font size */
+    }
+
+    input,
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .iconf {
+        font-size: 1.2em; /* Adjusted icon size */
+    }
+}
+
+@media (max-width: 480px) {
+    .one {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 1.2em; /* Further adjust font size */
+    }
+
+    p {
+        font-size: 0.9em; /* Further adjust font size */
+    }
+
+    input,
+    button {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .iconf {
+        font-size: 1em; /* Further adjust icon size */
+    }
+}

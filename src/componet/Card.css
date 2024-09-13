@@ -1,0 +1,31 @@
+.card
+{
+    height:500px;
+    width: 90%;
+    background-color:#003773;
+    margin: 10px 75px;
+    
+}
+.card1
+{
+    height: 390px;
+    width: 80%;
+    margin: 0px 3px;
+    background-color: white;
+    /* display: flex;
+    justify-content: space-around; */
+    
+    
+}
+.card img
+{
+   height:170px;
+   width: 200px;
+} 
+
+.icon
+{
+    color:rgb(226, 154, 21);
+    display: flex;
+    justify-content: center;
+}
